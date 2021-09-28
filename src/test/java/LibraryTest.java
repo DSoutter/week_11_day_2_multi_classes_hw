@@ -55,4 +55,12 @@ public class LibraryTest {
         assertEquals(1, library.countStock());
         assertEquals(2, borrower.countStock());
     }
+
+    @Test
+    public void checkNumberOfDystopianBooks(){
+        library.addBook(book);
+        library.addBook(book);
+        library.addBook(book);
+        assertEquals(2, library.getBooksByGenre("Dystopian"));
+    }
 }

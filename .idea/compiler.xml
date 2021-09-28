@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="week_11_day_2_multi_classes_hw" />
         <module name="lib_book_borrower_lab" />
       </profile>
     </annotationProcessing>
