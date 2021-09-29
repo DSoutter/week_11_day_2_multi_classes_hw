@@ -41,7 +41,7 @@ public class Library {
     public int getBooksByGenre(String key){
         addToHashMap();
         return booksByGenre.get(key);
-    }
+    } 
 
 
     private void addToHashMap(){
